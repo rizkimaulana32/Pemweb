@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+        rel="stylesheet" />
+    <title>Biography - Football Player</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        poppins: ["Poppins"],
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+
+<body class="bg-gradient-to-t from-indigo-200 font-poppins">
+    <!-- Header -->
+    <header class="mx-4 mt-8 text-center">
+        <h1 class="text-4xl font-bold text-gray-800">Biography - Football Player</h1>
+        <p class="mt-2 text-gray-600">Siuuuuuuuuuuuuuuuu!</p>
+    </header>
+
+    <main class="container px-6 py-8 mx-auto">
+        <!-- Profile Section -->
+        <section class="flex flex-col gap-8 lg:flex-row">
+            <!-- Profile Image -->
+            <div class="flex justify-center mt-5 lg:justify-end lg:j basis-1/2 lg:pr-6">
+                <img src="img\ron-removebg-preview.png" alt="Profile Picture"
+                    class="transition-all duration-300 rounded-full w-80 hover:bg-blue-200 hover:scale-110" />
+            </div>
+
+            <!-- Profile Info -->
+            <div class="mt-4 lg:mt-0 lg:relative lg:flex lg:items-center basis-1/2">
+                <div class="text-center lg:text-left">
+                    <h1 class="mb-2 text-2xl font-semibold text-gray-800 md:text-3xl">
+                        Cristiano Ronaldo Dos Santos Aveiro
+                    </h1>
+                    <p class="text-gray-600">Position: Forward</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Stats Section -->
+        <section class="mt-8">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+                Player Stats
+            </h2>
+            <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
+                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
+                    <h3 class="mb-2 text-base font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                        Goals Scored
+                    </h3>
+                    <p class="text-gray-600 group-hover:text-white">745</p>
+                </div>
+                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
+                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                        Assists
+                    </h3>
+                    <p class="text-gray-600 group-hover:text-white">236</p>
+                </div>
+                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
+                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                        Apperences
+                    </h3>
+                    <p class="text-gray-600 group-hover:text-white">1001</p>
+                </div>
+                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
+                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                        Titles
+                    </h3>
+                    <p class="text-gray-600 group-hover:text-white">33</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Biography Section -->
+        <section class="mt-8">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+                Biography
+            </h2>
+            <p class="p-4 text-sm text-justify text-gray-700 border border-gray-300 rounded-md shadow-sm md:text-lg">
+                Cristiano Ronaldo, yang lahir pada 5 Februari 1985 di Funchal,
+                Madeira, Portugal, adalah seorang pesepakbola terkenal yang dianggap
+                sebagai salah satu pemain terbaik sepanjang masa. Dia dikenal karena
+                kemampuan fisiknya yang luar biasa, kecepatan, ketepatan tendangan,
+                dan kemampuan mencetak gol yang luar biasa. Ronaldo telah memenangkan
+                banyak penghargaan individu dan kolektif selama karirnya yang
+                gemilang, termasuk lima Ballon d'Or, yang menandakan pencapaian
+                tertinggi dalam sepakbola. Dia telah bermain untuk beberapa klub papan
+                atas di Eropa, termasuk Sporting Lisbon, Manchester United, Real
+                Madrid, dan Juventus. Ronaldo juga merupakan pencetak gol terbanyak
+                sepanjang masa di Liga Champions UEFA, serta salah satu pemain yang
+                paling banyak mencetak gol dalam sejarah tim nasional Portugal. Di
+                luar lapangan, Ronaldo dikenal sebagai figur publik yang memengaruhi
+                dan bermurah hati, serta aktif dalam kegiatan amal dan berbagai usaha
+                bisnis.
+            </p>
+        </section>
+
+        <!-- Timeline Section -->
+        <section class="mt-8">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+                Timeline
+            </h2>
+
+            <div class="mx-10">
+                <ol class="border-black border-s">
+                    <!--First item-->
+                    <li>
+                        <div class="flex items-center pt-3 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2002-2003</p>
+                        </div>
+                        <div class="mt-2 mb-6 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Sporting Lisbon
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Ronaldo bergabung dengan akademi Sporting Lisbon pada usia 12
+                                tahun. Dia kemudian dipromosikan ke tim senior pada tahun
+                                2002. Ronaldo hanya bermain satu musim di Sporting Lisbon
+                                sebelum bergabung dengan Manchester United.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!--Second item-->
+                    <li>
+                        <div class="flex items-center pt-2 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2003-2009</p>
+                        </div>
+                        <div class="mt-2 mb-6 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Manchester United
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Pada 2003, Ronaldo bergabung dengan Manchester United dengan
+                                biaya transfer sekitar £12 juta. Di United, Ronaldo menjadi
+                                salah satu pemain terbaik di dunia. Dia memenangkan beberapa
+                                gelar Liga Premier, Liga Champions, dan Piala FA bersama klub
+                                ini. Ronaldo juga memenangkan Ballon d'Or pertamanya pada
+                                tahun 2008 saat berseragam United.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!--Third item-->
+                    <li>
+                        <div class="flex items-center pt-2 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2009-2018</p>
+                        </div>
+                        <div class="pb-5 mt-2 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Real Madrid
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Pada 2009, Ronaldo pindah ke Real Madrid dengan rekor transfer
+                                dunia saat itu, sekitar £80 juta. Di Real Madrid, Ronaldo
+                                mengukir sejarah dengan mencetak rekor gol yang mengesankan.
+                                Dia memenangkan empat gelar Liga Champions bersama klub ini.
+                                Ronaldo juga memenangkan empat Ballon d'Or tambahan saat
+                                membela Real Madrid. Bersama Los Blancos, Ronaldo menjadi
+                                salah satu pemain paling produktif dan berpengaruh dalam
+                                sejarah klub.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!--Fourth item-->
+                    <li>
+                        <div class="flex items-center pt-2 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2018-2021</p>
+                        </div>
+                        <div class="pb-5 mt-2 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Juventus
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Pada tahun 2018, Ronaldo pindah ke Juventus dengan biaya
+                                transfer sekitar €100 juta. Dia melanjutkan dominasinya di
+                                Italia, membantu Juventus memenangkan beberapa gelar Serie A.
+                                Ronaldo juga memperluas catatan golnya yang luar biasa. Di
+                                Juventus, dia terus menunjukkan kualitasnya sebagai salah satu
+                                pemain terbaik di dunia.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!--Fifth item-->
+                    <li>
+                        <div class="flex items-center pt-2 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2021-2022</p>
+                        </div>
+                        <div class="pb-5 mt-2 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Manchester United
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Pada musim panas 2021, Ronaldo kembali ke Manchester United
+                                setelah meninggalkan Juventus. Kembalinya Ronaldo ke Old
+                                Trafford disambut dengan antusiasme besar dari penggemar
+                                United. Dia menjadi salah satu pemain utama dalam upaya United
+                                untuk meraih kesuksesan kembali di tingkat domestik dan Eropa.
+                            </p>
+                        </div>
+                    </li>
+
+                    <!--Sixth item-->
+                    <li>
+                        <div class="flex items-center pt-2 flex-start">
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
+                            <p class="text-sm text-black">2022-Sekarang</p>
+                        </div>
+                        <div class="pb-5 mt-2 ms-4">
+                            <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
+                                Al-Nassr
+                            </h4>
+                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                                Kepindahan Ronaldo ke al-nassr adalah sebuah kejadian yang
+                                menarik dan menarik dari sebuah cerita yang dilakukan olehnya.
+                            </p>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="my-8">
+        <div
+            class="p-2 mx-auto text-xs text-center text-white bg-transparent border-2 border-white border-solid rounded-lg hover:bg-slate-400 w-60">
+            Mohammad Rizki Maulana (L0122096)
+        </div>
+    </footer>
+</body>
+
+</html>
