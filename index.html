@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
     <meta charset="UTF-8" />
@@ -20,76 +20,95 @@
                     },
                 },
             },
+            darkMode: "selector",
         };
     </script>
+    <script defer src="script.js"></script>
 </head>
 
-<body class="bg-gradient-to-t from-indigo-200 font-poppins">
+<body class="bg-gradient-to-t from-indigo-200 font-poppins dark:bg-slate-900 dark:from-slate-700">
     <!-- Header -->
-    <header class="mx-4 mt-8 text-center">
-        <h1 class="text-4xl font-bold text-gray-800">Biography - Football Player</h1>
-        <p class="mt-2 text-gray-600">Siuuuuuuuuuuuuuuuu!</p>
+    <header class="mx-4 mt-8 text-center dark:text-white">
+        <nav class="fixed top-0 z-20 w-full transition-all duration-200 shadow-none start-0">
+            <div class="flex items-center justify-center px-4 py-2 text-sm gap-x-6 sm:gap-x-12 md:text-lg">
+                <a href="#stats" cla>Stats</a>
+                <a href="#biography">Biography</a>
+                <a href="#timeline">Timeline</a>
+            </div>
+        </nav>
+
+        <h1 class="pt-4 text-4xl font-bold">Biography - Football Player</h1>
+        <p class="pt-2 text-gray-600 dark:text-slate-400">Siuuuuuuuuuuuuuuuu!</p>
     </header>
 
-    <main class="container px-6 py-8 mx-auto">
+    <main class="container p-6 mx-auto ">
         <!-- Profile Section -->
         <section class="flex flex-col gap-8 lg:flex-row">
             <!-- Profile Image -->
             <div class="flex justify-center mt-5 lg:justify-end lg:j basis-1/2 lg:pr-6">
                 <img src="img\ron-removebg-preview.png" alt="Profile Picture"
-                    class="transition-all duration-300 rounded-full w-80 hover:bg-blue-200 hover:scale-110" />
+                    class="transition-all duration-300 rounded-full w-80 hover:bg-indigo-200 hover:scale-110 dark:hover:bg-slate-400" />
             </div>
 
             <!-- Profile Info -->
             <div class="mt-4 lg:mt-0 lg:relative lg:flex lg:items-center basis-1/2">
                 <div class="text-center lg:text-left">
-                    <h1 class="mb-2 text-2xl font-semibold text-gray-800 md:text-3xl">
+                    <h1 class="mb-2 text-2xl font-semibold md:text-3xl dark:text-white">
                         Cristiano Ronaldo Dos Santos Aveiro
                     </h1>
-                    <p class="text-gray-600">Position: Forward</p>
+                    <p class="text-gray-600 dark:text-slate-400">Position: Forward</p>
                 </div>
             </div>
         </section>
 
         <!-- Stats Section -->
-        <section class="mt-8">
-            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+        <section id="stats" class="relative mt-8">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl dark:text-white">
                 Player Stats
             </h2>
             <div class="grid grid-cols-2 gap-4 lg:grid-cols-4">
-                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
-                    <h3 class="mb-2 text-base font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                <div
+                    class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group dark:shadow-slate-600 dark:bg-slate-900 dark:hover:bg-indigo-200">
+                    <h3
+                        class="mb-2 text-base font-semibold text-gray-800 md:text-lg group-hover:text-white dark:text-white dark:group-hover:text-black">
                         Goals Scored
                     </h3>
-                    <p class="text-gray-600 group-hover:text-white">745</p>
+                    <p class="text-gray-600 group-hover:text-white dark:text-white dark:group-hover:text-black">745</p>
                 </div>
-                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
-                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                <div
+                    class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group dark:shadow-slate-600 dark:bg-slate-900 dark:hover:bg-indigo-200">
+                    <h3
+                        class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white dark:text-white dark:group-hover:text-black">
                         Assists
                     </h3>
-                    <p class="text-gray-600 group-hover:text-white">236</p>
+                    <p class="text-gray-600 group-hover:text-white dark:text-white dark:group-hover:text-black">236</p>
                 </div>
-                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
-                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                <div
+                    class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group dark:shadow-slate-600 dark:bg-slate-900 dark:hover:bg-indigo-200">
+                    <h3
+                        class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white dark:text-white dark:group-hover:text-black">
                         Apperences
                     </h3>
-                    <p class="text-gray-600 group-hover:text-white">1001</p>
+                    <p class="text-gray-600 group-hover:text-white dark:text-white dark:group-hover:text-black">1001</p>
                 </div>
-                <div class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group">
-                    <h3 class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white">
+                <div
+                    class="p-4 bg-white rounded-md shadow-md hover:bg-slate-400 group dark:shadow-slate-600 dark:bg-slate-900 dark:hover:bg-indigo-200">
+                    <h3
+                        class="mb-2 font-semibold text-gray-800 md:text-lg group-hover:text-white dark:text-white dark:group-hover:text-black">
                         Titles
                     </h3>
-                    <p class="text-gray-600 group-hover:text-white">33</p>
+                    <p class="text-gray-600 group-hover:text-white dark:text-white dark:group-hover:text-black">33</p>
                 </div>
             </div>
         </section>
 
         <!-- Biography Section -->
-        <section class="mt-8">
-            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+        <section class="mt-8" id="biography">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl dark:text-white">
                 Biography
             </h2>
-            <p class="p-4 text-sm text-justify text-gray-700 border border-gray-300 rounded-md shadow-sm md:text-lg">
+            <p
+                class="p-4 text-sm text-justify text-gray-700 border border-gray-300 rounded-md shadow-sm md:text-lg dark:text-white">
                 Cristiano Ronaldo, yang lahir pada 5 Februari 1985 di Funchal,
                 Madeira, Portugal, adalah seorang pesepakbola terkenal yang dianggap
                 sebagai salah satu pemain terbaik sepanjang masa. Dia dikenal karena
@@ -109,24 +128,25 @@
         </section>
 
         <!-- Timeline Section -->
-        <section class="mt-8">
-            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl">
+        <section class="mt-8" id="timeline">
+            <h2 class="mb-4 text-xl font-semibold text-gray-800 md:text-2xl dark:text-white">
                 Timeline
             </h2>
 
-            <div class="mx-10">
-                <ol class="border-black border-s">
+            <div class="mx-4">
+                <ol class="border-black border-s dark:border-white dark:text-white">
                     <!--First item-->
                     <li>
                         <div class="flex items-center pt-3 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2002-2003</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2002-2003</p>
                         </div>
                         <div class="mt-2 mb-6 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Sporting Lisbon
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Ronaldo bergabung dengan akademi Sporting Lisbon pada usia 12
                                 tahun. Dia kemudian dipromosikan ke tim senior pada tahun
                                 2002. Ronaldo hanya bermain satu musim di Sporting Lisbon
@@ -138,14 +158,15 @@
                     <!--Second item-->
                     <li>
                         <div class="flex items-center pt-2 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2003-2009</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2003-2009</p>
                         </div>
                         <div class="mt-2 mb-6 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Manchester United
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Pada 2003, Ronaldo bergabung dengan Manchester United dengan
                                 biaya transfer sekitar £12 juta. Di United, Ronaldo menjadi
                                 salah satu pemain terbaik di dunia. Dia memenangkan beberapa
@@ -159,14 +180,15 @@
                     <!--Third item-->
                     <li>
                         <div class="flex items-center pt-2 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2009-2018</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2009-2018</p>
                         </div>
                         <div class="pb-5 mt-2 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Real Madrid
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Pada 2009, Ronaldo pindah ke Real Madrid dengan rekor transfer
                                 dunia saat itu, sekitar £80 juta. Di Real Madrid, Ronaldo
                                 mengukir sejarah dengan mencetak rekor gol yang mengesankan.
@@ -182,14 +204,15 @@
                     <!--Fourth item-->
                     <li>
                         <div class="flex items-center pt-2 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2018-2021</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2018-2021</p>
                         </div>
                         <div class="pb-5 mt-2 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Juventus
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Pada tahun 2018, Ronaldo pindah ke Juventus dengan biaya
                                 transfer sekitar €100 juta. Dia melanjutkan dominasinya di
                                 Italia, membantu Juventus memenangkan beberapa gelar Serie A.
@@ -203,14 +226,15 @@
                     <!--Fifth item-->
                     <li>
                         <div class="flex items-center pt-2 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2021-2022</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2021-2022</p>
                         </div>
                         <div class="pb-5 mt-2 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Manchester United
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Pada musim panas 2021, Ronaldo kembali ke Manchester United
                                 setelah meninggalkan Juventus. Kembalinya Ronaldo ke Old
                                 Trafford disambut dengan antusiasme besar dari penggemar
@@ -223,14 +247,15 @@
                     <!--Sixth item-->
                     <li>
                         <div class="flex items-center pt-2 flex-start">
-                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black"></div>
-                            <p class="text-sm text-black">2022-Sekarang</p>
+                            <div class="-ms-[5px] me-3 h-[9px] w-[9px] rounded-full bg-black dark:bg-white"></div>
+                            <p class="text-sm">2022-Sekarang</p>
                         </div>
                         <div class="pb-5 mt-2 ms-4">
                             <h4 class="mb-1.5 text-base md:text-lg lg:text-xl font-semibold">
                                 Al-Nassr
                             </h4>
-                            <p class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400">
+                            <p
+                                class="p-4 mb-3 text-sm text-justify text-white rounded-md md:text-base bg-slate-400 dark:bg-slate-400 dark:text-black">
                                 Kepindahan Ronaldo ke al-nassr adalah sebuah kejadian yang
                                 menarik dan menarik dari sebuah cerita yang dilakukan olehnya.
                             </p>
@@ -239,6 +264,19 @@
                 </ol>
             </div>
         </section>
+
+        <!-- Toggle Dark Mode -->
+        <div class="fixed flex bottom-5 right-5">
+            <input type="checkbox" id="switch" class="hidden">
+            <label for="switch">
+                <div class="flex items-center w-8 h-8 p-1 bg-white rounded-full cursor-pointer md:w-10 md:h-10 ">
+                    <img src="img/moon1.png" alt="light" class="dark:hidden">
+                    <img src="img/moon2.png" alt="dark" class="hidden dark:block">
+                </div>
+            </label>
+            </input>
+        </div>
+
     </main>
 
     <!-- Footer -->
