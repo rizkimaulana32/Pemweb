@@ -1,0 +1,45 @@
+{
+  "data_biography": {
+    "name": "Cristiano Ronaldo Dos Santos Aveiro",
+    "position": "Forward",
+    "biography": "Cristiano Ronaldo, yang lahir pada 5 Februari 1985 di Funchal, Madeira, Portugal, adalah seorang pesepakbola terkenal yang dianggap sebagai salah satu pemain terbaik sepanjang masa. Dia dikenal karena kemampuan fisiknya yang luar biasa, kecepatan, ketepatan tendangan, dan kemampuan mencetak gol yang luar biasa. Ronaldo telah memenangkan banyak penghargaan individu dan kolektif selama karirnya yang gemilang, termasuk lima Ballon d'Or, yang menandakan pencapaian tertinggi dalam sepakbola. Dia telah bermain untuk beberapa klub papan atas di Eropa, termasuk Sporting Lisbon, Manchester United, Real Madrid, dan Juventus. Ronaldo juga merupakan pencetak gol terbanyak sepanjang masa di Liga Champions UEFA, serta salah satu pemain yang paling banyak mencetak gol dalam sejarah tim nasional Portugal. Di luar lapangan, Ronaldo dikenal sebagai figur publik yang memengaruhi dan bermurah hati, serta aktif dalam kegiatan amal dan berbagai usaha bisnis."
+  },
+  "data_stats": {
+    "Goals Scored": 745,
+    "Assists": 236,
+    "Appearances": 1001,
+    "Titles": 33
+  },
+  "data_timeline": [
+    {
+      "year": "2002-2003",
+      "club": "Sporting Lisbon",
+      "desc": "Ronaldo bergabung dengan akademi Sporting Lisbon pada usia 12 tahun. Dia kemudian dipromosikan ke tim senior pada tahun 2002. Ronaldo hanya bermain satu musim di Sporting Lisbon sebelum bergabung dengan Manchester United."
+    },
+    {
+      "year": "2003-2009",
+      "club": "Manchester United",
+      "desc": "Pada 2003, Ronaldo bergabung dengan Manchester United dengan biaya transfer sekitar £12 juta. Di United, Ronaldo menjadi salah satu pemain terbaik di dunia. Dia memenangkan beberapa gelar Liga Premier, Liga Champions, dan Piala FA bersama klub ini. Ronaldo juga memenangkan Ballon d'Or pertamanya pada tahun 2008 saat berseragam United."
+    },
+    {
+      "year": "2009-2018",
+      "club": "Real Madrid",
+      "desc": "Pada 2009, Ronaldo pindah ke Real Madrid dengan rekor transfer dunia saat itu, sekitar £80 juta. Di Real Madrid, Ronaldo mengukir sejarah dengan mencetak rekor gol yang mengesankan. Dia memenangkan empat gelar Liga Champions bersama klub ini. Ronaldo juga memenangkan empat Ballon d'Or tambahan saat membela Real Madrid. Bersama Los Blancos, Ronaldo menjadi salah satu pemain paling produktif dan berpengaruh dalam sejarah klub."
+    },
+    {
+      "year": "2018-2021",
+      "club": "Juventus",
+      "desc": "Pada tahun 2018, Ronaldo pindah ke Juventus dengan biaya transfer sekitar €100 juta. Dia melanjutkan dominasinya di Italia, membantu Juventus memenangkan beberapa gelar Serie A. Ronaldo juga memperluas catatan golnya yang luar biasa. Di Juventus, dia terus menunjukkan kualitasnya sebagai salah satu pemain terbaik di dunia."
+    },
+    {
+      "year": "2021-2022",
+      "club": "Manchester United",
+      "desc": "Pada musim panas 2021, Ronaldo kembali ke Manchester United setelah meninggalkan Juventus. Kembalinya Ronaldo ke Old Trafford disambut dengan antusiasme besar dari penggemar United. Dia menjadi salah satu pemain utama dalam upaya United untuk meraih kesuksesan kembali di tingkat domestik dan Eropa."
+    },
+    {
+      "year": "2022-Sekarang",
+      "club": "Al-Nassr",
+      "desc": "Kepindahan Ronaldo ke al-nassr adalah sebuah kejadian yang menarik dan menarik dari sebuah cerita yang dilakukan olehnya."
+    }
+  ]
+}
